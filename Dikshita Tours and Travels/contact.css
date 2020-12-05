@@ -1,0 +1,15 @@
+﻿#add
+{
+	float:left;
+	margin:10px 0 10px 380px;
+	width:200px;
+	color:#777;
+	font-weight:bolder;
+}
+
+#map
+{
+	float:left;
+	margin:10px 0 10px 230px;
+	width:500px;
+}

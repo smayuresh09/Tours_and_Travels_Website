@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>ad(1).JPG</ImageUrl>
+    <NavigateUrl>https://www.freepik.com/free-photos-vectors/travel-banner</NavigateUrl>
+    <AlternateText>
+      Flipkart Offers
+    </AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Offers</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>ad(2).JPG</ImageUrl>
+    <NavigateUrl>https://www.freepik.com/free-photos-vectors/travel-banner</NavigateUrl>
+    <AlternateText>
+      Summer offers
+    </AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Offers</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>ad(3).JPG</ImageUrl>
+    <NavigateUrl>https://www.freepik.com/free-photos-vectors/travel-banner</NavigateUrl>
+    <AlternateText>
+      Summer offers
+    </AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Offers</Keyword>
+  </Ad>
+</Advertisements>

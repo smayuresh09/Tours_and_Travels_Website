@@ -1,0 +1,215 @@
+﻿body 
+{
+	background-image:url("background_062.gif");
+}
+
+ #wraper
+        {
+        	width:960px;
+        	height:auto;
+        	margin:0 auto;
+        	/*top right bottom left
+        	    top-bottom right-left 
+        	    1px 10%
+        	*/
+        	border:solid 1px black;
+        	 overflow:auto;
+        }
+        #head
+        {
+        	//border:solid 1px black;
+        	overflow:auto;
+        	float:left;
+        }
+        #head img
+        {   
+        	//border:solid 1px;
+        	margin-left:10px;
+        }
+        a
+        {
+        	text-decoration:none;
+        }
+        
+        #headmenu 
+        {
+        	float:right;
+        	//border:solid 1px red;
+        }
+        
+        #headmenu ol
+        {
+        	//border:solid 1px blue;
+        	overflow:auto;
+        	margin:0;
+        	padding:0;
+        	list-style:none;
+        }
+        
+        #headmenu ol li
+        {
+        	//border:solid 1px red;
+        	float:left;
+        	font-size:10px;
+        	padding:0 10px 0 10px;
+        }
+        
+        #headmenu ul
+        {
+        	//border:solid 1px blue;
+        	overflow:auto;
+        	margin:0;
+        	padding:0;
+        	list-style:none;
+        }
+        
+        #headmenu ul li
+        {
+        	//border:solid 1px red;
+        	float:left;
+        	font-size:10px;
+        	padding-left:20px;
+        }
+        
+        #headmenu a
+        {
+        	color:#900;
+        }
+        
+        #headmenu a:hover
+        {
+        	color:#000;
+        }
+        
+        #headmenu .hdmn
+        {
+        	//border:solid 1px red;
+        	float:left;
+        	font-size:10px;
+        	padding-left:30px;
+        }
+        
+        #banner
+        {
+            //border:solid 1px black;	
+            float:left;
+            height:300px;
+            width:960PX;
+            color:#fff;
+        }  
+        
+        #b1
+{
+    display: block;
+    float: left;
+    margin-top: 5px;
+    margin-left: 500px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+        
+        #area ul
+        {
+        	//border:solid 1px blue;
+        	overflow:auto;
+        	margin:10px 10px;
+        	padding:0;
+        	list-style:none;
+        	float:left;
+        }
+        
+        #area ul li
+        {
+        	float:left;
+        	border-right:solid 1px #900;
+        	padding-right:10px;
+        	margin-right:10px;
+        }
+        
+        #area .lastamn
+        {
+        	border-right:none;
+        }
+        
+        #area a
+        {
+        	
+        	font-size:15px;
+        	color:#900;
+        }
+        
+        
+        #area a:hover
+        {
+        	color:#000;
+        }
+        
+        #welcome
+        {
+        	display:block;
+        	float:left;
+        	width:700px;
+        	padding-left:260px;
+        	font-weight:bolder;
+        	//border:solid 1px red;
+        	margin:0 0 10px 0;
+        	background-color:#888;
+        	color:#fff;
+        }
+        
+        #content
+        {
+        	//border:solid 1px red;
+        	float:left;
+        	overflow:auto;
+        	width:960px;
+        }
+        
+        #data1, #data2
+        {
+        	float:left;
+        	//border:solid 1px blue;
+        	width:960px;
+        	margin-bottom:15px;
+        }
+        
+        #content .contdiv
+        {
+        	//border:solid 1px blue;
+        	display:block;
+        	float:left;
+        	border-bottom:dashed 1px #333;
+        	width:300px;
+        	margin-left:15px;
+        }
+        
+        #content .contimg, .txt, .readmore
+        {
+        	display:block;
+        	float:left;
+        	//border:solid 1px red;
+        }
+        
+               
+        #content .readmore
+        {
+        	margin-bottom:5px;
+        }
+        
+        #content .readmore a
+        {
+        	color:#900;
+        	font-weight:bolder;
+        }
+        
+        #content .readmore a:hover
+        {
+        	color:#000;
+        }
+        
+		#content1
+        {
+        	display:block;
+        	border:solid 1px red;
+        	float:left;
+        }

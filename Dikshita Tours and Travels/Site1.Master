@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Dikshita_Tours_and_Travels.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<title>DIKSHITA TOURS & TRAVELS PVT. LTD.</title>
+    <link href="home.css" rel="stylesheet" />
+    <link href="vehicle.css" rel="stylesheet" />
+    <link href="login.css" rel="stylesheet" />
+    <link href="contact.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wraper">
+        <div id="head">
+            <a href="#"> <img src="logotext1.png" /> </a>
+        </div>
+        <div id="headmenu">
+            <span id="images">
+                <ol>
+                    <li><img src="home.png" /></li>
+                    <li><img src="rent-a-vehicle.png" /></li>
+                    <li><img src="ticket-booking.png" /></li>
+                    <li><img src="hotel-booking.png" /></li>
+                    <li><img src="about-us.png" /></li>
+                    <li><img src="contact-us.png" /></li>
+                    <li><img src="our-client.png" /></li>
+                </ol>
+             </span>
+             
+             <span>
+                <ul>
+                    <li> <a href="home.aspx"> HOME </a></li>
+                    <li class="hdmn"> <a href="vehicle.aspx"> VEHICLES </a> </li>
+                    <li class="hdmn"> <a href="ticket.aspx"> TICKETS </a> </li>
+                    <li class="hdmn"> <a href="hotel.aspx"> HOTELS </a> </li>
+                    <li class="hdmn"> <a href="about.aspx"> ABOUT </a> </li>
+                    <li class="hdmn"> <a href="contact.aspx"> CONTACT</a> </li>
+                    <li class="hdmn"> <a href="login.aspx">ADMIN LOGIN </a> </li>
+                </ul>
+             </span>
+        </div>
+        <div id="banner">
+            <asp:AdRotator ID="AdRotator1" runat="server" DataSourceID="XmlDataSource1" />
+            <asp:XmlDataSource ID="XmlDataSource1" runat="server" 
+                DataFile="~/XMLAdrotator.xml"></asp:XmlDataSource>
+        </div>
+        <div id="area">
+                 <ul>
+                    <li> <a href="maha1.aspx"> MAHARASHTRA </a> </li>
+                    <li> <a href="bang1.aspx"> BANGLORE-MYSORE-OOTY </a> </li>
+                    <li> <a href="kerala1.aspx"> KERLA </a> </li>
+                    <li> <a href="kash1.aspx"> KASHMIR </a> </li>
+                    <li> <a href="uttar1.aspx"> HIMACHAL </a> </li>
+                    <li class="lastamn"> <a href="raj1.aspx"> RAJASTHAN </a> </li>
+                </ul>
+        </div>
+        <div id="welcome">
+            WELCOME TO INDIA - DIKSHITA TRAVELS (FOR SAFETY AND COMFORT)
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+        </form>
+</body>
+</html>
